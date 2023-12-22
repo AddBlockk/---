@@ -1,0 +1,714 @@
+@import url("https://fonts.googleapis.com/css2?family=Epilogue:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Inter:wght@100;200;300;400;500;600;700;800;900&family=Roboto+Condensed:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+html,
+body,
+ul,
+a,
+h1,
+h2,
+h3,
+h4,
+h5,
+h5,
+li,
+img {
+  text-decoration: none;
+  margin: 0;
+  padding: 0;
+  list-style-type: none;
+}
+
+header {
+  padding: 24px 30px 0 30px;
+  background-image: url(img/kletka.png);
+  background-position: 70% 100%;
+  background-repeat: no-repeat;
+}
+
+.container {
+  margin: 0 auto;
+  max-width: 1920px;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+nav ul a {
+  display: flex;
+  color: #000;
+  font-family: Arial;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+nav ul .red {
+  color: #ee1c1f;
+}
+
+nav button {
+  border: 1px solid #ee1c1f;
+  background: #fff;
+  color: #ee1c1f;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  cursor: pointer;
+  width: 180px;
+  height: 40px;
+  flex-shrink: 0;
+  flex-shrink: 0;
+}
+
+.nav__items {
+  display: flex;
+  justify-content: space-between;
+  gap: 60px;
+}
+
+.main-info-header {
+  padding: 0 160px;
+  margin-top: 150px;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+  padding-bottom: 400px;
+}
+
+.main-info-header h2 {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 147.518%; /* 26.553px */
+  text-transform: uppercase;
+}
+
+.main-info-header h1 {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 150%; /* 96px */
+  text-transform: uppercase;
+}
+
+.main-info-header h3 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.main-info-header h4 {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+/* official-site */
+
+.official-site {
+  background-color: #f1f1fb;
+}
+
+.official-site h1 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 80px; /* 181.818% */
+  text-transform: uppercase;
+}
+.official-site p {
+  color: #808080;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 50px; /* 208.333% */
+  max-width: 800px;
+}
+
+.container__items-official-site {
+  display: flex;
+  gap: 50px;
+  align-items: center;
+}
+
+/* container-info-years */
+
+.container-info-years {
+  margin-top: 100px;
+  display: flex;
+  gap: 122px;
+}
+
+.container-info-years h1 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 120px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 135.188%; /* 175.744px */
+  text-transform: uppercase;
+}
+
+.assortiment {
+  color: #808080;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 130.018%; /* 31.204px */
+}
+
+.container-button-info-years {
+  display: flex;
+  gap: 30px;
+}
+
+.container-button-info-years button {
+  color: #ee1c1f;
+  text-align: center;
+  font-family: Arial;
+  font-size: 20px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.018%; /* 35.404px */
+  width: 347px;
+  height: 60px;
+  border: 1px solid #ee1c1f;
+  flex-shrink: 0;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.container-button-info-years a {
+  color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.018%; /* 42.484px */
+}
+
+.container-info-real-years-ago {
+  display: flex;
+  align-items: center;
+  gap: 45px;
+  margin-top: 50px;
+}
+
+.container-info-real-years-ago h2 {
+  color: #ee1c1f;
+  text-align: center;
+  font-family: Roboto Condensed;
+  font-size: 130px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.container-info-real-years-ago p {
+  color: #000;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  width: 292px;
+  height: 71px;
+  flex-shrink: 0;
+}
+
+.container-info-real-years {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 63px;
+}
+
+.specialists-right {
+  display: flex;
+  gap: 36px;
+}
+
+.specialists {
+  display: flex;
+  margin-top: 200px;
+}
+
+.specialists-left h1 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.specialists-left p {
+  color: #808080;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  line-height: 150%;
+  max-width: 300px;
+}
+
+/* partner */
+
+.partner {
+  background: #c9cfd6;
+  padding-top: 120px;
+  margin-top: 40px;
+  padding-bottom: 120px;
+}
+
+.partner-title {
+  padding-left: 350px;
+}
+
+.partner h1 {
+  color: #fff;
+  font-family: Arial;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 150%; /* 54px */
+  text-transform: uppercase;
+}
+
+.partner p {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.partner img {
+  width: 100%;
+}
+
+.lekarstva {
+  padding: 0 30px;
+
+  display: flex;
+}
+
+.lekarstva h1 {
+  color: #ee1c1f;
+  font-family: Roboto Condensed;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  width: 565px;
+  height: 225px;
+}
+
+.item-lecarstva-title {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+}
+
+.item-lecarstva-title h2 {
+  color: #000;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.item-lecarstva p {
+  width: 416.586px;
+  height: 86px;
+  flex-shrink: 0;
+  color: #808080;
+  font-family: Arial;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 153.518%; /* 32.239px */
+}
+
+.items-lecarstva {
+  display: flex;
+  flex-wrap: wrap;
+}
+ekarstva .items-lecarstva-title-section {
+  margin-bottom: 200px;
+}
+
+.item-lecarstva {
+  padding: 30px;
+}
+
+.items-lecarstva-right {
+  display: flex;
+}
+
+.items-lecarstva-right h2 {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 21px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.lekarstva-title-section h1 {
+  color: #ee1c1f;
+  font-family: Roboto Condensed;
+  font-size: 64px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  max-width: 500px;
+  padding-top: 200px;
+}
+
+.lekarstva-background {
+  background-image: url(img/kletka.png);
+  background-position: 20% 100%;
+  background-repeat: no-repeat;
+}
+
+.container-items-lecarstva-right {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.items-lecarstva-right button {
+  color: #ee1c1f;
+  text-align: center;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 177.018%; /* 31.863px */
+  width: 240.694px;
+  height: 60px;
+  flex-shrink: 0;
+  background: transparent;
+  border: 1px solid #ee1c1f;
+  background: #fff;
+  cursor: pointer;
+}
+
+/* news */
+
+.news {
+  margin-top: 80px;
+  padding: 0 30px;
+}
+
+.news-title {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 50px;
+}
+
+.news-title h1 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.news-title a {
+  color: #000;
+  text-align: right;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.news-title button {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  border: 1px solid #ee1c1f;
+  background: #fff;
+  width: 192px;
+  height: 50px;
+  flex-shrink: 0;
+  cursor: pointer;
+}
+
+.news-title-right {
+  display: flex;
+  gap: 60px;
+  align-items: center;
+}
+
+.news h2 {
+  color: #000;
+  font-family: Arial;
+  font-size: 36px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  max-width: 920px;
+}
+
+.news a {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.news span {
+  color: #808080;
+  font-family: Arial;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-likes {
+  display: flex;
+  gap: 60px;
+  margin-top: 20px;
+}
+
+.container-news {
+  display: flex;
+  gap: 30px;
+}
+
+.container-news-right {
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+/* contact */
+
+.contact {
+  background: #c9cfd6;
+  margin-top: 50px;
+}
+
+.contact-right {
+  padding-left: 200px;
+  padding-top: 100px;
+  display: flex;
+  flex-direction: column;
+  gap: 100px;
+}
+
+.contact-right h1 {
+  color: #fff;
+  font-family: Roboto Condensed;
+  font-size: 44px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+}
+
+.contact-right p {
+  color: #fff;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.contact-right a {
+  color: #fff;
+  font-family: Arial;
+  font-size: 30px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.contact-right span {
+  color: #fff;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 900;
+  line-height: 176.264%; /* 31.728px */
+  text-transform: uppercase;
+}
+
+.socseti {
+  display: flex;
+  flex-direction: column;
+}
+
+.socseti-items {
+  display: flex;
+  margin-top: 20px;
+  gap: 50px;
+}
+
+.contact-items {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contact-left img {
+  width: 100%;
+}
+
+/* activity */
+
+.activity-background {
+  background: #f3f3f3;
+}
+
+.activity {
+  padding-top: 83px;
+}
+
+.activity h1 {
+  color: #000;
+  font-family: Roboto Condensed;
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: normal;
+  text-transform: uppercase;
+  margin-bottom: 70px;
+}
+
+.container-activity {
+  display: flex;
+  justify-content: center;
+  gap: 50px;
+  padding-bottom: 80px;
+}
+
+/* footer */
+
+footer {
+  margin-top: 30px;
+  margin-bottom: 40px;
+}
+
+.time span {
+  color: #ee1c1f;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.323%; /* 32.098px */
+}
+
+.time p {
+  color: #808080;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 178.323%;
+}
+
+.address p {
+  color: #808080;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.address a {
+  color: #808080;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: normal;
+  text-decoration-line: underline;
+}
+
+.spisok-info {
+  color: #000;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+  display: flex;
+  gap: 100px;
+}
+
+.spisok-info ul {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+}
+
+.spisok-info li {
+  cursor: pointer;
+}
+
+.spisok-info span {
+  color: #808080;
+  font-family: Arial;
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: normal;
+}
+
+.container-footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+.container-info-address-time {
+  display: flex;
+  gap: 50px;
+}
